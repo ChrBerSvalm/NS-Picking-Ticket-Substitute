@@ -17,7 +17,7 @@ function beforeLoad(context) {
 
             context.form.addButton({
                 id: 'custpage_print_connsodoc',
-                label: 'Print Connected SO document',
+                label: 'Print SO document',
                 functionName: 'window.open("' + suiteletUrl + '", "_blank");'
             });
         }

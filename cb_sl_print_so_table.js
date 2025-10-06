@@ -100,7 +100,7 @@ define(['N/ui/serverWidget', 'N/search', 'N/log', 'N/format', 'N/record'],
 
         // Sublist
         const sub = form.addSublist({ id: 'custpage_lines', type: ui.SublistType.LIST, label: 'Transaction Lines' });
-        const fldOnIR = sub.addField({ id: 'custpage_onir', type: ui.FieldType.CHECKBOX, label: 'On This Receipt' });
+        const fldOnIR = sub.addField({ id: 'custpage_onir', type: ui.FieldType.CHECKBOX, label: 'On This Transaction' });
         //fldOnIR.updateDisplayType({ displayType: ui.FieldDisplayType.DISABLED });
         sub.addField({ id: 'custpage_line_num', type: ui.FieldType.TEXT, label: 'Line #' });
         sub.addField({ id: 'custpage_item', type: ui.FieldType.TEXT, label: 'Item' });
