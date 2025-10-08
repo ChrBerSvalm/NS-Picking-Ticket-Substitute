@@ -71,7 +71,7 @@ define(['N/ui/serverWidget', 'N/search', 'N/log', 'N/format', 'N/record', 'N/que
         const printCss =
           '<style>' +
           '@media print {' +
-            '@page { size: A4 landscape; margin: 8mm; }' +
+            '@page { size: A4 portrait; margin: 8mm; }' +
             '#body, .ns-child-component {' +
               'min-height: 0 !important;' +
               'height: auto !important;' +
